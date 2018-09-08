@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+html, body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+app-sidenav {
+    display: flex;
+    flex-direction: column;
+    height: 100vh !important;
+}
+
+mat-sidenav-container.mat-drawer-container {
+    overflow: auto;
+    flex-grow: 1;
+}
+
+mat-sidenav {
+    width: 200px;
+}
+
+.content {
+    display: block;
+    padding-left: 8px;
+}
+
+
+
+.toolbar-icon {
+    padding: 0 14px;
+}
+
+.toolbar-spacer {
+    flex: 1 1 auto;
+}
